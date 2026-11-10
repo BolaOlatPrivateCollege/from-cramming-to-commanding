@@ -5,3 +5,5 @@ Thumbs.db
 
 # Local test artifacts
 _test.html
+dist/
+*.zip
