@@ -4,6 +4,13 @@ A static, single-page site for selling the book to Bola-Olat Private College fam
 
 No build step, no dependencies. Open `index.html` or upload the folder to any host.
 
+## Live site
+
+- Page: https://bolaolatprivatecollege.github.io/from-cramming-to-commanding/
+- Repository: https://github.com/BolaOlatPrivateCollege/from-cramming-to-commanding
+
+Hosted with GitHub Pages from the `main` branch. Every push to `main` redeploys it automatically.
+
 ## Files
 
 ```
@@ -37,7 +44,7 @@ Then open `http://localhost:4173`.
 | Account number used by the copy button | `#accountNumber` in `index.html` |
 | FAQ answers | `.faq` section in `index.html` |
 | Author bio | `.author` section in `index.html` |
-| Social share image | `og:image` in the `<head>` — use a full URL once the site has a domain, e.g. `https://yourdomain.com/assets/book-cover.jpg` |
+| Social share image | `og:image` in the `<head>` — already set to the live GitHub Pages URL |
 | Structured data price | JSON-LD block at the bottom of `index.html` |
 
 ## Replace the photos
@@ -52,7 +59,7 @@ Any static host works:
 - **GitHub Pages** — push the folder to a repository, then enable Pages
 - **School website / cPanel** — upload the files to the public web root
 
-After publishing, add the live URL to `og:url` and make `og:image` absolute so WhatsApp and Facebook previews show the cover.
+After publishing, check that `og:url` and `og:image` match the live address (they are already set for the GitHub Pages URL). If you move to a custom domain, update both so WhatsApp and Facebook previews show the cover.
 
 ## Notes
 
