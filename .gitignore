@@ -1,0 +1,7 @@
+# OS / editor files
+Thumbs.db
+.DS_Store
+*.log
+
+# Local test artifacts
+_test.html
